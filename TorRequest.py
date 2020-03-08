@@ -6,7 +6,7 @@ TorRequest class opens a Tor circuit and requests a
 given website with anonymized Tor IP address.
 '''
 
-__author__ = 'Chris [https://gitlab.com/RootDev/]'
+__author__ = 'Chris [https://github.com/RootDev4/]'
 __copyright__ = 'Copyright 2020'
 __license__ = 'MIT'
 __version__ = "1.0.1"
