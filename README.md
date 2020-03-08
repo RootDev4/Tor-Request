@@ -33,15 +33,15 @@ t.ipAddr()
 t.session()
 
 # Get website content with anonymized request
-t.get('https://gitlab.com/') # Returns HTML content
-t.get('https://gitlab.com/', True) # Returns response object (contains HTTP status code, text, ...)
+t.get('https://github.com/') # Returns HTML content
+t.get('https://github.com/', True) # Returns response object (contains HTTP status code, text, ...)
 
 # Example: print HTTP status code
-print(t.get('https://gitlab.com/', True).status_code)
+print(t.get('https://github.com/', True).status_code)
 
 # Send anonymized POST request to website (e.g. login credentials)
 t.post('<url>', {'username': 'foo', 'password': 'bar'}) # Returns HTML content
-t.post('<url>', {'key': 'value'}, True) # Returns response object
+t.post('<url>', {'username': 'foo', 'password': 'bar'}, True) # Returns response object
 ```
 
 ## Tor executable
